@@ -19,5 +19,7 @@ const students = [
   },
 ];
 
+const studentMarco = students.find(studentMarco => studentMarco.name === 'Marco Lanci');
+console.log(studentMarco.class);
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
